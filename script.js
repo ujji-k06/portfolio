@@ -1,3 +1,18 @@
-console.log("Portfolio website loaded!");
+const revealElements = document.querySelectorAll(".reveal, .fade-in");
 
-// Smooth scrolling for navigation links
+const observer = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+      }
+    });
+  },
+  {
+    threshold: 0.15,
+  },
+);
+
+revealElements.forEach((element) => {
+  observer.observe(element);
+});

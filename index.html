@@ -3,90 +3,268 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ujji-K | Portfolio</title>
+    <title>Ujjwal Kharola | Freelance Developer</title>
+    <meta
+      name="description"
+      content="Freelance developer building modern websites, Python tools, and reliable software solutions."
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- Navigation Centre -->
-    <header class="hero">
-      <nav class="navbar">
-        <h1 class="logo">Ujji</h1>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-      <!-- Main body-->
-      <div class="hero-content">
-        <h2>Freelance programmer for hire..</h2>
-        <p>
-          I build websites, Python tools, and software solutions for clients.
-        </p>
-        <a href="#projects" class="btn">View My Work</a>
+    <header class="site-header">
+      <div class="container nav">
+        <a href="#home" class="logo">Ujjwal<span>.dev</span></a>
+
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <a href="#contact" class="nav-btn">Let's Talk</a>
       </div>
     </header>
 
-    <section id="about" class="section">
-      <h2>About Me</h2>
-      <p>
-        I'm a developer interested in web development, Python programming,
-        automation, and building useful software. I'm currently creating
-        projects to showcase my skills and start freelancing professionally.
-      </p>
-    </section>
+    <main>
+      <section id="home" class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-text fade-in">
+            <div class="badge">
+              Freelance Developer • Websites • Python • Debugging
+            </div>
+            <h1>
+              I build clean,
+              <span>professional software</span>
+              that helps clients move faster.
+            </h1>
+            <p class="hero-description">
+              I create modern websites, useful Python tools, and practical
+              software solutions for clients who want quality work, clear
+              communication, and polished results.
+            </p>
 
-    <section id="projects" class="section">
-      <h2>Projects</h2>
-      <div class="cards">
+            <div class="hero-buttons">
+              <a href="#projects" class="btn btn-primary">View Projects</a>
+              <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
 
-        <div class="card">
-          <h3>Portfolio Website</h3>
-          <p>
-            A personal website to showcase my skills, projects, and services.
-          </p>
-          <a href="#" target="_blank">View Project</a>
+            <div class="stats">
+              <div class="stat-card">
+                <h3>Modern</h3>
+                <p>Clean design and professional presentation</p>
+              </div>
+              <div class="stat-card">
+                <h3>Reliable</h3>
+                <p>Structured code and practical solutions</p>
+              </div>
+              <div class="stat-card">
+                <h3>Focused</h3>
+                <p>Built for clients, not just for show</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-panel fade-in delay-1">
+            <div class="profile-card">
+              <p class="small-label">Available for freelance work</p>
+              <h2>Developer Profile</h2>
+
+              <div class="profile-item">
+                <span>Core focus</span>
+                <strong>Web development and Python solutions</strong>
+              </div>
+
+              <div class="profile-item">
+                <span>Best for</span>
+                <strong>Business sites, automation, and code fixes</strong>
+              </div>
+
+              <div class="profile-item">
+                <span>Working style</span>
+                <strong>Clear, practical, and detail-oriented</strong>
+              </div>
+            </div>
+          </div>
         </div>
+      </section>
 
-    </section>
+      <section id="about" class="section reveal">
+        <div class="container two-column">
+          <div>
+            <p class="section-label">About</p>
+            <h2 class="section-title">
+              A portfolio designed to build client confidence
+            </h2>
+          </div>
 
-    <section id="services" class="section">
-      <h2>Services</h2>
-
-      <div class="cards">
-
-        <div class="card">
-          <h3>Website Development</h3>
-          <p>Modern, responsive websites for businesses and personal brands.</p>
+          <div class="section-text">
+            <p>
+              I’m a developer focused on building software that is useful,
+              reliable, and easy to understand. My work centers around creating
+              websites, Python tools, and custom solutions that solve real
+              problems.
+            </p>
+            <p>
+              I care about clean structure, modern design, and writing code that
+              feels professional. Whether the project is a website, an
+              automation tool, or a debugging task, my goal is always to deliver
+              something polished and valuable.
+            </p>
+          </div>
         </div>
+      </section>
 
-        <div class="card">
-          <h3>Python Scripting</h3>
-          <p>Automation tools, scripts, and small software solutions.</p>
-        </div>
+      <section id="services" class="section reveal">
+        <div class="container">
+          <p class="section-label">Services</p>
+          <h2 class="section-title">What I can help clients with</h2>
 
-        <div class="card">
-          <h3>Bug Fixing</h3>
-          <p>Debugging and improving existing code and projects.</p>
+          <div class="card-grid services-grid">
+            <article class="card service-card">
+              <div class="icon">💻</div>
+              <h3>Website Development</h3>
+              <p>
+                Responsive, modern websites for freelancers, businesses, and
+                personal brands.
+              </p>
+            </article>
+
+            <article class="card service-card">
+              <div class="icon">🐍</div>
+              <h3>Python Automation</h3>
+              <p>
+                Custom scripts and tools that automate repetitive tasks and save
+                time.
+              </p>
+            </article>
+
+            <article class="card service-card">
+              <div class="icon">🛠</div>
+              <h3>Bug Fixing</h3>
+              <p>
+                Debugging, code cleanup, and improving existing projects so they
+                work reliably.
+              </p>
+            </article>
+          </div>
         </div>
-        
+      </section>
+
+      <section id="projects" class="section projects-section reveal">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <p class="section-label">Projects</p>
+              <h2 class="section-title">Featured work</h2>
+            </div>
+            <p class="section-subtext">
+              Replace these placeholders with your best GitHub projects and live
+              demos.
+            </p>
+          </div>
+
+          <div class="card-grid">
+            <article class="card project-card">
+              <div class="project-image"></div>
+              <div class="project-content">
+                <h3>Portfolio Website</h3>
+                <p>
+                  A modern portfolio website built to showcase services,
+                  projects, and contact details in a clean, professional way.
+                </p>
+                <div class="tags">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                </div>
+                <a href="#" target="_blank" class="project-link"
+                  >View Project</a
+                >
+              </div>
+            </article>
+
+            <article class="card project-card">
+              <div class="project-image"></div>
+              <div class="project-content">
+                <h3>Python Automation Tool</h3>
+                <p>
+                  A practical automation script for reducing repetitive manual
+                  tasks and improving workflow efficiency.
+                </p>
+                <div class="tags">
+                  <span>Python</span>
+                  <span>Automation</span>
+                  <span>Scripting</span>
+                </div>
+                <a href="#" target="_blank" class="project-link"
+                  >View Project</a
+                >
+              </div>
+            </article>
+
+            <article class="card project-card">
+              <div class="project-image"></div>
+              <div class="project-content">
+                <h3>Data Analysis Project</h3>
+                <p>
+                  A Python-based analysis project focused on cleaning data,
+                  extracting insights, and presenting results clearly.
+                </p>
+                <div class="tags">
+                  <span>Pandas</span>
+                  <span>Python</span>
+                  <span>Data</span>
+                </div>
+                <a href="#" target="_blank" class="project-link"
+                  >View Project</a
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section reveal">
+        <div class="container">
+          <div class="contact-box">
+            <div>
+              <p class="section-label">Contact</p>
+              <h2 class="section-title">Let’s build something useful</h2>
+              <p class="contact-text">
+                Looking for a developer for a website, Python script, or code
+                fixes? Reach out and let’s discuss your project.
+              </p>
+            </div>
+
+            <div class="contact-links">
+              <a href="mailto:your.email@example.com" class="contact-card"
+                >Email Me</a
+              >
+              <a
+                href="https://github.com/yourusername"
+                target="_blank"
+                class="contact-card"
+                >GitHub</a
+              >
+              <a
+                href="https://linkedin.com/in/yourusername"
+                target="_blank"
+                class="contact-card"
+                >LinkedIn</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <p>© 2026 Ujjwal Kharola. All rights reserved.</p>
       </div>
-
-    </section>
-
-    <section id="contact" class="section">
-      <h2>Contact</h2>
-      <p>Want to work with me? Get in touch.</p>
-      <div class="contact-links">
-        <a href="mailto:ujjisalt2@icloud.com">Email</a>
-        <a href="https://github.com/ujji-k06/ujji-k06" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/ujjikharola06" target="_blank">LinkedIn</a>
-      </div>
-    </section>
-
-    <footer>
-      <p>&copy; 2026 Ujjwal Kharola. All rights reserved.</p>
     </footer>
 
     <script src="script.js"></script>
